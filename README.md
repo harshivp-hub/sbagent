@@ -85,24 +85,4 @@ pytest
 
   1. Create `agents/your_agent.py` subclassing `BaseAgent`.
   2. Register in `orchestrator/orchestrator.py`.
-* **Human-in-Loop**:
 
-  * Inspect `Recommendation.confidence` and route low-confidence output to a review UI.
-* **Advanced features**:
-
-  * Vector-store context injection (FAISS, Chroma)
-  * Caching / rate-limit management
-  * Integration with infra pipelines (Terraform, Jenkins, Slack notifications)
-
----
-
-## 🔮 Future Enhancements
-
-* Implement **StorageAgent** and **DatabaseAgent**
-* Add **rule-based validators** before/after LLM calls
-* Introduce **automatic prompt tuning** from human feedback
-* Integrate **monitoring & logging** (e.g., Prometheus, Sentry)
-
----
-
-**Enjoy optimizing your cloud infrastructure with LLMs!**
