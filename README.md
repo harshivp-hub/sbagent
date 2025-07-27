@@ -37,7 +37,7 @@ smalblu-agent/
    cd smalblu-agent
    ```
 
-2. **Copy & edit environment file**
+2. **Copy & edit environment file add your openai api key**
 
    ```bash
    cp .env.example .env
