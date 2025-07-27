@@ -1,0 +1,125 @@
+{
+  "total_savings": 1210.0,
+  "recommendations": [
+    {
+      "type": "downsize_instance",
+      "resource": "i-10001",
+      "action": "Change to t3.small",
+      "savings": 15.0,
+      "reason": "Low CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "downsize_instance",
+      "resource": "i-10002",
+      "action": "Change to t3.medium",
+      "savings": 30.0,
+      "reason": "Low CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "downsize_instance",
+      "resource": "i-10003",
+      "action": "Change to t3.large",
+      "savings": 60.0,
+      "reason": "Low CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "downsize_instance",
+      "resource": "i-10004",
+      "action": "Change to m5.large",
+      "savings": 45.0,
+      "reason": "Low CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "downsize_instance",
+      "resource": "i-10005",
+      "action": "Change to m5.large",
+      "savings": 90.0,
+      "reason": "Low CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "downsize_instance",
+      "resource": "i-10006",
+      "action": "Change to c5.large",
+      "savings": 42.5,
+      "reason": "Low CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "downsize_instance",
+      "resource": "i-10007",
+      "action": "Change to c5.large",
+      "savings": 85.0,
+      "reason": "Low CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "downsize_instance",
+      "resource": "i-10008",
+      "action": "Change to r5.large",
+      "savings": 50.0,
+      "reason": "Low CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "downsize_instance",
+      "resource": "i-10009",
+      "action": "Change to r5.large",
+      "savings": 100.0,
+      "reason": "Low CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "downsize_instance",
+      "resource": "i-10010",
+      "action": "Change to t3.2large",
+      "savings": 120.0,
+      "reason": "Low CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "downsize_instance",
+      "resource": "i-10011",
+      "action": "Change to m5.2large",
+      "savings": 180.0,
+      "reason": "Low CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "downsize_instance",
+      "resource": "i-10012",
+      "action": "Change to c5.2large",
+      "savings": 170.0,
+      "reason": "Low CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "downsize_instance",
+      "resource": "i-10013",
+      "action": "Change to r5.2large",
+      "savings": 200.0,
+      "reason": "Low CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "downsize_instance",
+      "resource": "i-10014",
+      "action": "Change to t3.nano",
+      "savings": 10.0,
+      "reason": "Low CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "downsize_instance",
+      "resource": "i-10015",
+      "action": "Change to t3.micro",
+      "savings": 12.5,
+      "reason": "Low CPU utilization",
+      "confidence": 0.5
+    }
+  ]
+}

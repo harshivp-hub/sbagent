@@ -1,0 +1,30 @@
+{
+  "account_info": {
+    "cloud_provider": "aws",
+    "monthly_spend": 150000
+  },
+  "instances": [
+    { "id": "i-10001", "type": "t3.small",    "cpu_utilization":  8, "memory_utilization": 12, "monthly_cost": 30 },
+    { "id": "i-10002", "type": "t3.medium",   "cpu_utilization": 15, "memory_utilization": 18, "monthly_cost": 60 },
+    { "id": "i-10003", "type": "t3.large",    "cpu_utilization": 10, "memory_utilization": 20, "monthly_cost": 120 },
+    { "id": "i-10004", "type": "m5.large",    "cpu_utilization": 12, "memory_utilization": 25, "monthly_cost": 90 },
+    { "id": "i-10005", "type": "m5.xlarge",   "cpu_utilization": 18, "memory_utilization": 22, "monthly_cost": 180 },
+    { "id": "i-10006", "type": "c5.large",    "cpu_utilization": 14, "memory_utilization": 10, "monthly_cost": 85 },
+    { "id": "i-10007", "type": "c5.xlarge",   "cpu_utilization": 20, "memory_utilization": 15, "monthly_cost": 170 },
+    { "id": "i-10008", "type": "r5.large",    "cpu_utilization": 12, "memory_utilization": 30, "monthly_cost": 100 },
+    { "id": "i-10009", "type": "r5.xlarge",   "cpu_utilization": 16, "memory_utilization": 28, "monthly_cost": 200 },
+    { "id": "i-10010", "type": "t3.2xlarge",  "cpu_utilization": 19, "memory_utilization": 24, "monthly_cost": 240 },
+    { "id": "i-10011", "type": "m5.2xlarge",  "cpu_utilization": 17, "memory_utilization": 23, "monthly_cost": 360 },
+    { "id": "i-10012", "type": "c5.2xlarge",  "cpu_utilization": 13, "memory_utilization": 12, "monthly_cost": 340 },
+    { "id": "i-10013", "type": "r5.2xlarge",  "cpu_utilization": 11, "memory_utilization": 26, "monthly_cost": 400 },
+    { "id": "i-10014", "type": "t3.nano",     "cpu_utilization":  5, "memory_utilization":  8, "monthly_cost":  20 },
+    { "id": "i-10015", "type": "t3.micro",    "cpu_utilization": 18, "memory_utilization": 19, "monthly_cost":  25 }
+  ],
+  "storage": [
+    { "type": "gp3",  "size_gb": 1000, "utilization": 20, "monthly_cost": 100 },
+    { "type": "gp2",  "size_gb": 2000, "utilization": 15, "monthly_cost": 200 },
+    { "type": "io1",  "size_gb": 500,  "utilization": 18, "monthly_cost": 150 },
+    { "type": "st1",  "size_gb": 1500, "utilization": 25, "monthly_cost": 120 },
+    { "type": "sc1",  "size_gb": 2500, "utilization": 10, "monthly_cost": 180 }
+  ]
+}

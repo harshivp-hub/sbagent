@@ -1,0 +1,125 @@
+{
+  "total_savings": -1210.0,
+  "recommendations": [
+    {
+      "type": "upsize_instance",
+      "resource": "i-20001",
+      "action": "Change to t3.medium",
+      "savings": -15.0,
+      "reason": "High CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "upsize_instance",
+      "resource": "i-20002",
+      "action": "Change to t3.large",
+      "savings": -30.0,
+      "reason": "High CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "upsize_instance",
+      "resource": "i-20003",
+      "action": "Change to t3.xlarge",
+      "savings": -60.0,
+      "reason": "High CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "upsize_instance",
+      "resource": "i-20004",
+      "action": "Change to m5.xlarge",
+      "savings": -45.0,
+      "reason": "High CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "upsize_instance",
+      "resource": "i-20005",
+      "action": "Change to m5.2xlarge",
+      "savings": -90.0,
+      "reason": "High CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "upsize_instance",
+      "resource": "i-20006",
+      "action": "Change to c5.xlarge",
+      "savings": -42.5,
+      "reason": "High CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "upsize_instance",
+      "resource": "i-20007",
+      "action": "Change to c5.2xlarge",
+      "savings": -85.0,
+      "reason": "High CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "upsize_instance",
+      "resource": "i-20008",
+      "action": "Change to r5.xlarge",
+      "savings": -50.0,
+      "reason": "High CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "upsize_instance",
+      "resource": "i-20009",
+      "action": "Change to r5.2xlarge",
+      "savings": -100.0,
+      "reason": "High CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "upsize_instance",
+      "resource": "i-20010",
+      "action": "Change to t3.2xlarge",
+      "savings": -120.0,
+      "reason": "High CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "upsize_instance",
+      "resource": "i-20011",
+      "action": "Change to m5.2xlarge",
+      "savings": -180.0,
+      "reason": "High CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "upsize_instance",
+      "resource": "i-20012",
+      "action": "Change to c5.2xlarge",
+      "savings": -170.0,
+      "reason": "High CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "upsize_instance",
+      "resource": "i-20013",
+      "action": "Change to r5.2xlarge",
+      "savings": -200.0,
+      "reason": "High CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "upsize_instance",
+      "resource": "i-20014",
+      "action": "Change to t3.micro",
+      "savings": -10.0,
+      "reason": "High CPU utilization",
+      "confidence": 0.5
+    },
+    {
+      "type": "upsize_instance",
+      "resource": "i-20015",
+      "action": "Change to t3.small",
+      "savings": -12.5,
+      "reason": "High CPU utilization",
+      "confidence": 0.5
+    }
+  ]
+}
