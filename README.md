@@ -1,4 +1,4 @@
-# SmalBlu LLM Agent
+# SB LLM Agent
 
 A minimal, working LLM-powered service that analyzes cloud infrastructure data and outputs cost-optimization recommendations. Built in Python with modular, extensible design and schema validation.
 
